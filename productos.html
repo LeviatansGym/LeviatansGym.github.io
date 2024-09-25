@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <section>
+    <img src="https://www.positivehealthwellness.com/wp-content/uploads/2018/01/Depositphotos_104554398_s-2015-560x600.jpg">
+    <img src="https://th.bing.com/th/id/OIP.S6JFX1mFFhMz_c1nWxJO0gHaHa?rs=1&pid=ImgDetMain">
+    <img src="https://i.pinimg.com/originals/d6/de/8f/d6de8f4a6ee70de180861738633f117c.png">
+    </section>
+    <style>
+        section {
+display: flex;
+width: 600px;
+height: 430px;
+        }
+        section img {
+            width: 0px;
+            flex-grow: 1;
+            object-fit: cover;
+            opacity: .8;
+            transition: .5s ease;
+            justify-content: center;
+                align-items: center;
+        }
+        section img:hover {
+            cursor: crosshair;
+            width: 300px;
+            opacity: 1;
+            filter: contrast(120%);
+           
+        }
+        body{
+                background-image: url(fotitoo.avif);
+                background-size: cover;
+                width: 100%;
+                height: 100vh;
+            }
+            body::after{
+                content: "";
+                position: absolute;
+                display: block;
+                width: 100%;
+                height: 100vh;
+                top: 0;
+                z-index: -1;
+            }
+    </style>
+        <meta name="viewport"
+        content="wiodth=device-width">
+        <title>nada</title>
+    </head>
+    <body>
+    <a href="index.html">
+        <button>volver</button>
+        </a>
+        </body>
+</html>

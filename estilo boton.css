@@ -1,0 +1,17 @@
+<style>
+.boton-redondo {
+  display: inline-block; 
+  border-radius: 50px; 
+  background-color: #3cce7e; 
+  color: #ffffff; 
+  font-size: 18px; 
+  padding: 16px 32px; 
+  text-decoration: none; 
+  transition: background-color 0.3s ease; 
+}
+
+
+.boton-redondo:hover {
+  background-color: #126dc8; 
+}
+</style>
